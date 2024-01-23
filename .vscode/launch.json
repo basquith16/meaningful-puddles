@@ -1,0 +1,35 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node-terminal",
+            "request": "launch",
+            "name": "Dev meaningful-puddles",
+            "command": "yarn dev"
+        },
+        {
+            "type": "node-terminal",
+            "request": "launch",
+            "name": "Start meaningful-puddles",
+            "command": "yarn start"
+        },
+        {
+            "type": "node-terminal",
+            "request": "launch",
+            "name": "Test meaningful-puddles",
+            "command": "yarn test"
+        },
+        {
+            "type": "node-terminal",
+            "request": "launch",
+            "name": "Lint meaningful-puddles",
+            "command": "yarn lint"
+        },
+        {
+            "type": "node-terminal",
+            "request": "launch",
+            "name": "Lint:Fix meaningful-puddles",
+            "command": "yarn lint:fix"
+        }
+    ]
+}
